@@ -1,0 +1,78 @@
+body {
+    font-family: fantasy;
+    background-color: rgb(52, 73, 94);}
+
+h1{
+  font-weight: bold;
+  font-size: 20pt;
+  color: rgb(23, 32, 42);
+  }
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 35pt;
+    line-height: 2.1em;
+    color: rgb(23, 32, 42);
+    background-color: rgb(52, 152, 219);
+    text-shadow: 2px 2px 0px rgb(86, 101, 115);}
+
+
+footer {color: rgb(241, 196, 15); font-size: 17; text-shadow: 2px 2px 0px rgb(28, 40, 51);}
+
+p {
+    text-align: left;
+    font-weight: bold;
+    font-style: italic;
+    word-spacing: .01em;
+    font-size: 19pt;
+    letter-spacing: 0.05em;
+    line-height: 1.8em;}
+
+ul {
+    text-align: center;
+    position: relative;}
+
+input {
+      width: 10.5%;
+      height: 3.0%;
+      position: relative;
+      top: -3px;
+      left: 10px;
+      }
+
+button {
+        text-shadow: 1px 1px 0px rgb(28, 40, 51);
+        font-family: fantasy;
+        font-size: 25;
+        border: Black;
+        background-color: Dodgerblue;
+        width: 5.5%;
+        height: 6.5%;}
+
+form {
+     font-size: 22;
+     }
+
+a:link {
+      color: rgb(52, 152, 219);
+      letter-spacing: 0.065em;
+      font-size: 18;
+      font-weight: bold;
+      text-decoration: none;}
+a:visited {
+      font-weight: bold;
+      letter-spacing: 0.065em;
+      font-size: 18;
+      color: rgb(165, 105, 189);}
+a:hover {
+      color: rgb(165, 105, 189);
+      letter-spacing: 0.065em;
+      font-size: 18;
+      font-weight: bold;
+      text-decoration: underline;}
+a:active {
+      font-weight: bold;
+      letter-spacing: 0.065em;
+      font-size: 18;
+      color: darkcyan;}
