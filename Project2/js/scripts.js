@@ -55,4 +55,5 @@ function init(nameSwitch) {
     messages.push('<font color = salmon>' + '-' + userInput + "<br>");
     document.getElementById('displayMessage').innerHTML = messages.join('');
   }
+  
 }
