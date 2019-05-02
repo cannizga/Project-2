@@ -4,7 +4,7 @@ var prevMessages = ["Hey Man Whats Up", "Hello?", "Are You Ignoring Me?"];
 
 for(i = 0; i < 3; i++)
   {
-  document.getElementById('UserMessages').innerHTML += '<font color = salmon>' + "-" + "Jimmy John" + ": " + prevMessages[i].toString() + " " + "<br>";
+  document.getElementById('UserMessages').innerHTML += '<font color = salmon>' + "-" + "Connor" + ": " + prevMessages[i].toString() + " " + "<br>";
   }
 
 function Message (name1, name2, m2, m, userInput){
@@ -23,8 +23,8 @@ function init (nameSwitch) {
 
    m2 = document.getElementById("message-container");
    m = m2.elements["name"].value
-   name1 = "Giuseppe";
-   name2 = "Jimmy John";
+   name1 = "Alessandro";
+   name2 = "Connor";
 
    switch (nameSwitch) {
 
