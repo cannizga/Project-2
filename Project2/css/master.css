@@ -13,7 +13,7 @@ img {
   -webkit-animation: linear infinite;
   -webkit-transform: scaleX(1);
   -webkit-animation-name: run;
-  -webkit-animation-duration: 5s;
+  -webkit-animation-duration: 7s;
 }
 
 @-webkit-keyframes run {
@@ -122,26 +122,27 @@ h1 {
 }
 
 h2 {
-    display: flex;
-    width: 100%;
-    font-size: 35;
-    color: rgb(46, 134, 193);
-    text-shadow: 1px 1px 0px rgb(28, 40, 51);
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  width: 100%;
+  font-size: 35;
+  font-weight: bold;
+  color: rgb(46, 134, 193);
+  text-shadow: 1px 1px 0px rgb(28, 40, 51);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 h2:before,
 h2:after {
-    content: '';
-    border-top: 2px solid;
-    margin: 0 20px 0 0;
-    flex: 1 0 20px;
+  content: '';
+  border-top: 2px solid;
+  margin: 0 20px 0 0;
+  flex: 1 0 20px;
 }
 
 h2:after {
-    margin: 0 0 0 20px;
+  margin: 0 0 0 20px;
 }
 
 footer {
@@ -182,6 +183,7 @@ button {
   background-color: rgb(26, 82, 118);
   width: 5.5%;
   height: 6.5%;
+  border: 1px dashed #000;
 }
 
 form {
